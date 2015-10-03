@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////
-////////////////////DEGA Merlin v1.1.0.0////////////////////                                
+////////////////////DEGA Apache v1.0.0.0////////////////////                                
 ////////////////////Addon by deltagamer/////////////////////                               
 // http://forums.bistudio.com/member.php?94697-deltagamer // 
 ////////////////////////////////////////////////////////////
@@ -8,13 +8,13 @@
 [*]GitHub Link[*]
 
 
-- https://github.com/deltagamer/DEGA_Merlins
+- https://github.com/deltagamer/DEGA_Apaches
 
 
 [*]ArmaHolic Link[*]
 
 
-- http://www.armaholic.com/page.php?id=29544
+- 
 
 
 [*]PlayWithSix Link[*]
@@ -33,15 +33,9 @@
 
 - Kimi - https://forums.bistudio.com/user/828913-kimi-uy/
 - RavenDK - https://forums.bistudio.com/user/749751-ravendk/
-- Soldierman - https://forums.bistudio.com/user/766559-soldierman/
 
 
 [*]Changelog[*]
-
-== v1.1.0.0 ==
-
-- Added Collision Lights
-- Added Landing Lights
 
 == v1.0.0.0 ==
 

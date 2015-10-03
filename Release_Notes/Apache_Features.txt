@@ -1,13 +1,19 @@
-DEGA Merlin v1.0.0.0 Features
+DEGA Apaches v1.0.0.0 Features
 
-Ability to open and close side doors
-Option to open/close ramp
-4x Passenger FFV
+Different types of Blocks I & II
+Option to ride on the jumpseats
+Different Loadouts:
+- Rockets/Cannon
+- Hellifire w/ 4x AGM-114N (SAL2) * 4x AGM-114L
 Co-pilot laser designator
-Pilot/Co-Pilot Cockpit FLIR MFD 
-Sling Loading
+Pilot Cockpit FLIR MFD 
+Safety Switch
+Different Fire mode for rockets
 Multifunction Camera
 FLIR Pod
 Turret Slaving
-Passenger count increased to 24
+Custom Pilot HMD
+Rocket Ripple
+BAF versions
+USA versions
 Collision and landing lights

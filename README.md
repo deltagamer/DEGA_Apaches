@@ -1,20 +1,26 @@
-@DEGA_Merlins
+@DEGA_Apaches
 ==============
 
-![Wildcat Front View](https://raw.githubusercontent.com/deltagamer/DEGA_Merlins/master/Release_Notes/Thread_Images/2015-09-18_00005.jpg)
+![APACHE Front View](https://raw.githubusercontent.com/deltagamer/DEGA_Apaches/master/Release_Notes/Thread_Images/2015-10-04_00001.jpg)
 
 Features
 =========
-* Ability to open and close side doors
-* Option to open/close ramp
-* 4x Passenger FFV
+* Different types of Blocks I & II
+* Option to ride on the jumpseats
+* Different Loadouts:
+  - Rockets/Cannon
+  - Hellifire w/ 4x AGM-114N (SAL2) * 4x AGM-114L
 * Co-pilot laser designator
-* Pilot/Co-Pilot Cockpit FLIR MFD 
-* Sling Loading
+* Pilot Cockpit FLIR MFD 
+* Safety Switch
+* Different Fire mode for rockets
 * Multifunction Camera
 * FLIR Pod
 * Turret Slaving
-* Passenger count increased to 24
+* Custom Pilot HMD
+* Rocket Ripple
+* BAF versions
+* USA versions
 * Collision and landing lights
 
 Whats Planned
@@ -28,7 +34,6 @@ Credits
 
 * [Kimi](https://forums.bistudio.com/user/828913-kimi-uy/)
 * [RavenDK](https://forums.bistudio.com/user/749751-ravendk/)
-* [Soldierman](https://forums.bistudio.com/user/766559-soldierman/)
 
 
 Thanks to everyone above they have helped me out a lot! 
