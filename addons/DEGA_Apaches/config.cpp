@@ -137,7 +137,7 @@ class CfgVehicles
 				statement="this animate [""copip12"",0];";
 				priority=9;
 			}; 			
-		};		
+		};			
 		soundGetIn[]={"DEGA_Apaches\Data\sounds\close",db-10,1};
 		soundGetOut[]={"DEGA_Apaches\Data\sounds\open",db-10,1, 40};
 		soundEnviron[] = {"",0.031622775,1.0};

@@ -10,6 +10,7 @@ Features
 * Different Loadouts:
   - Rockets/Cannon
   - Hellifire w/ 4x AGM-114N (SAL2) * 4x AGM-114L
+  - Hellifire w/ 4x AGM-114N (SAL2) * 4x AGM-114K 
 * Co-pilot laser designator
 * Pilot Cockpit FLIR MFD 
 * Safety Switch
