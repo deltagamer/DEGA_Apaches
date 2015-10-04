@@ -5,7 +5,9 @@ class CfgPatches
 		units[] = 
 		{
 		    "DEGA_Apache_AH1_Block_I_BAF",
-			"DEGA_Apache_AH64D_Block_I_USA"
+			"DEGA_Apache_AH64D_Block_I_USA",
+			"DEGA_Apache_AH1_Block_II_BAF",
+			"DEGA_Apache_AH64D_Block_II_USA"
 		};
 		weapons[] = {};
 		requiredVersion = 1;
@@ -491,8 +493,6 @@ class CfgMagazines
     class 12Rnd_FFAR: VehicleMagazine
     {
         scope=2;
-        displayName="CRV7 (HEISAP)";
-        displayNameShort = "HEISAP";
         ammo="R_Hydra_HE";
         count=12;
         initSpeed=44;
@@ -513,8 +513,16 @@ class CfgMagazines
     };
     class 38Rnd_FFAR: 12Rnd_FFAR
     {
+        displayName="FFAR (HE)";
+        displayNameShort = "HE";			
         count=38;
     };
+    class 38Rnd_CRV7: 12Rnd_FFAR
+    {
+        displayName="CRV7 (HEISAP)";
+        displayNameShort = "HEISAP";		
+        count=38;
+    };	
     class US_Jammer_Magazine_Kimi: CA_Magazine
     {
         count = 120;
@@ -785,10 +793,8 @@ class CfgWeapons
     {
         magazines[]=
         {
-            "38Rnd_FFAR",
-            "12Rnd_FFAR"
+            "38Rnd_FFAR"
         };
-        displayName="CRV7 (HEISAP)";
         modes[]=
         {
             "Far_AI",
@@ -979,15 +985,26 @@ class CfgWeapons
             soundBurst=0;
         };
     };
-    class FFARLauncher_12: FFARLauncher
+    class FFARLauncher_38_HE: FFARLauncher
     {
         cursor="EmptyCursor";
         cursorAim="EmptyCursor";
+        displayName="FFAR (HE)";		
         magazines[]=
         {
-            "12Rnd_FFAR"
+            "38Rnd_FFAR"
         };
-    };
+    };	
+    class FFARLauncher_38_HEISAP: FFARLauncher
+    {
+        cursor="EmptyCursor";
+        cursorAim="EmptyCursor";
+        displayName="CRV7 (HEISAP)";		
+        magazines[]=
+        {
+            "38Rnd_CRV7"
+        };
+    };		
     class HellfireLauncherK : MissileLauncher
     {
         displayName = "AGM-114K (SAL2)";

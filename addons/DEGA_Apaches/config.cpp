@@ -90,8 +90,6 @@ class CfgVehicles
 		driverInAction = "AH64_Pilot_EP1";
 		//threat[]={1, 1, 0.5};
         #include "\DEGA_Apaches\Kimi\cfgAH64_HUD.hpp"			
-		weapons[]={"CMFlareLauncher", "FFARLauncher"};
-	    magazines[]={"168Rnd_CMFlare_Chaff_Magazine","38Rnd_FFAR"}; // just some 38 rockets	
 		memoryPointLMissile = "Rocket_1";
 		memoryPointRMissile = "Rocket_2";		
 		crew = "B_Helipilot_F";
@@ -457,8 +455,6 @@ class CfgVehicles
 				gunnerInAction = AH64_Gunner_EP1;
 				minElev        =    -60; maxElev        =    +30; initElev       =    0;
 				minTurn        =    -120; maxTurn       =    +120; initTurn      =    0;
-				weapons[]={"M230","HellfireLauncherL", "HellfireLauncherN", "Laserdesignator_mounted"};
-				magazines[]={"1200Rnd_30x113mm_M789_HEDP", "4Rnd_Hellfire_L","4Rnd_Hellfire_N", "Laserbatteries"}; // just some 38 rockets
 				enableManualFire = 1;
 				radarType = 4;
 				isCoPilot = 1;
@@ -654,13 +650,19 @@ class CfgVehicles
 		scopeCurator = 2;		// 2 means available from Zeus, whereas 0 means hidden		
 		model="\DEGA_Apaches\AH_BAF.p3d";
 	    author = "Deltagamer"; 
-		displayname = "AH1 BAF Apache Block I";	
+		displayname = "AH1 BAF Apache Longbow Block I";	
+		weapons[]={"CMFlareLauncher", "FFARLauncher_38_HEISAP"};
+	    magazines[]={"168Rnd_CMFlare_Chaff_Magazine","38Rnd_CRV7"}; // just some 38 rockets			
 		hiddenSelections[] ={"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"dega_apaches\data\ah1_baf_body_co.paa","dega_apaches\data\ah64d_details_co.paa"};	
 		class AnimationSources : AnimationSources {};		
 		class Turrets:Turrets
 		{		
-			class MainTurret : MainTurret {};		
+			class MainTurret : MainTurret 
+			{
+				weapons[]={"M230","HellfireLauncherL", "HellfireLauncherN", "Laserdesignator_mounted"};
+				magazines[]={"1200Rnd_30x113mm_M789_HEDP", "4Rnd_Hellfire_L","4Rnd_Hellfire_N", "Laserbatteries"};					
+			};		
 			class CargoTurret_01: CargoTurret_01 {};
 			class CargoTurret_02: CargoTurret_02 {};
         };			
@@ -675,13 +677,19 @@ class CfgVehicles
 		scopeCurator = 2;		// 2 means available from Zeus, whereas 0 means hidden		
 		model="\DEGA_Apaches\Ah64D.p3d";
 	    author = "Deltagamer"; 
-		displayname = "AH64D USA Apache Block I";	
+		displayname = "AH64D USA Apache Longbow Block I";
+		weapons[]={"CMFlareLauncher", "FFARLauncher_38_HE"};
+	    magazines[]={"168Rnd_CMFlare_Chaff_Magazine","38Rnd_FFAR"}; // just some 38 rockets			
 		hiddenSelections[] ={"Camo1","Camo2"/*, "Camo3"*/};
 		hiddenSelectionsTextures[] = {"DEGA_Apaches\Skins\ah64d_body_co.paa","DEGA_Apaches\Skins\ah64d_details_co.paa"/*,"dega_apaches\data\ah64d_alfa_ca.paa"*/};	
 		class AnimationSources : AnimationSources {};		
 		class Turrets:Turrets
 		{		
-			class MainTurret : MainTurret {};		
+			class MainTurret : MainTurret 
+			{
+				weapons[]={"M230","HellfireLauncherL", "HellfireLauncherN", "Laserdesignator_mounted"};
+				magazines[]={"1200Rnd_30x113mm_M789_HEDP", "4Rnd_Hellfire_L","4Rnd_Hellfire_N", "Laserbatteries"};					
+			};		
 			class CargoTurret_01: CargoTurret_01 {};
 			class CargoTurret_02: CargoTurret_02 {};
         };			
@@ -696,7 +704,9 @@ class CfgVehicles
 		scopeCurator = 2;		// 2 means available from Zeus, whereas 0 means hidden		
 		model="\DEGA_Apaches\AH_BAF.p3d";
 	    author = "Deltagamer"; 
-		displayname = "AH1 BAF Apache Block II";	
+		displayname = "AH1 BAF Apache Block II";
+		weapons[]={"CMFlareLauncher", "FFARLauncher_38_HEISAP"};
+	    magazines[]={"168Rnd_CMFlare_Chaff_Magazine","38Rnd_CRV7"}; // just some 38 rockets			
 		hiddenSelections[] ={"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"dega_apaches\data\ah1_baf_body_co.paa","dega_apaches\data\ah64d_details_co.paa"};	
 		class AnimationSources : AnimationSources 
@@ -710,7 +720,11 @@ class CfgVehicles
 		};		
 		class Turrets:Turrets
 		{		
-			class MainTurret : MainTurret {};		
+			class MainTurret : MainTurret 
+			{
+				weapons[]={"M230","HellfireLauncherK", "HellfireLauncherN", "Laserdesignator_mounted"};
+				magazines[]={"1200Rnd_30x113mm_M789_HEDP", "4Rnd_Hellfire_K","4Rnd_Hellfire_N", "Laserbatteries"};					
+			};		
 			class CargoTurret_01: CargoTurret_01 {};
 			class CargoTurret_02: CargoTurret_02 {};
         };			
@@ -726,6 +740,8 @@ class CfgVehicles
 		model="\DEGA_Apaches\Ah64D.p3d";
 	    author = "Deltagamer"; 
 		displayname = "AH64D USA Apache Block II";	
+		weapons[]={"CMFlareLauncher", "FFARLauncher_38_HE"};
+	    magazines[]={"168Rnd_CMFlare_Chaff_Magazine","38Rnd_FFAR"}; // just some 38 rockets			
 		hiddenSelections[] ={"Camo1","Camo2"/*, "Camo3"*/};
 		hiddenSelectionsTextures[] = {"DEGA_Apaches\Skins\ah64d_body_co.paa","DEGA_Apaches\Skins\ah64d_details_co.paa"/*,"dega_apaches\data\ah64d_alfa_ca.paa"*/};	
 		class AnimationSources : AnimationSources 
@@ -739,7 +755,11 @@ class CfgVehicles
 		};		
 		class Turrets:Turrets
 		{		
-			class MainTurret : MainTurret {};		
+			class MainTurret : MainTurret 
+			{
+				weapons[]={"M230","HellfireLauncherK", "HellfireLauncherN", "Laserdesignator_mounted"};
+				magazines[]={"1200Rnd_30x113mm_M789_HEDP", "4Rnd_Hellfire_K","4Rnd_Hellfire_N", "Laserbatteries"};				
+			};		
 			class CargoTurret_01: CargoTurret_01 {};
 			class CargoTurret_02: CargoTurret_02 {};
         };			

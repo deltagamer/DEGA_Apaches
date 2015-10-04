@@ -7,3 +7,5 @@ Apaches Hellfires
 1 - AGM-114L Longbow Hellfire Anti-Tank (Radar guided, well, more like IR guided) Fire and Forget.
 
 2 - AGM-114N Thermobaric Warhead (Laser Guided).
+
+3 - AGM-114K Anti-Tank Warhead (Laser Guided).
