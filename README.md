@@ -14,7 +14,6 @@ Features
 * Pilot Cockpit FLIR MFD 
 * Safety Switch
 * Different Fire mode for rockets
-* Multifunction Camera
 * FLIR Pod
 * Turret Slaving
 * Custom Pilot HMD
